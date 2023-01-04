@@ -1,0 +1,24 @@
+{
+  "name": "@tjwaterman99/jsgrid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjwaterman99/jsgrid.git"
+  },
+  "author": "Tom Waterman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjwaterman99/jsgrid/issues"
+  },
+  "homepage": "https://github.com/tjwaterman99/jsgrid#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "vitest": "^0.26.3"
+  }
+}
