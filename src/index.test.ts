@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { generatePoints, Grid } from "./main";
+import { generatePoints, Grid } from ".";
 
 describe('generatePoints', () => {
     it('create a set of points', () => {
