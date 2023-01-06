@@ -1,14 +1,15 @@
 {
   "name": "@tjwaterman99/jsgrid",
-  "version": "1.0.0-rc2",
+  "version": "1.0.0-rc3",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "prepack": "tsc",
+    "prepublish": "tsc",
     "test": "vitest",
     "build": "tsc"
   },
-  "prepublish": "tsc",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tjwaterman99/jsgrid.git"
